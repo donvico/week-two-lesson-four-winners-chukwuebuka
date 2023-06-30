@@ -1,6 +1,6 @@
-for (let count = 1; count <= 10; count ++){
-    if (count % 2 === 0) { 
-        continue;
-    }
-    console.log(count); //output is 1,3,5,7,9
-}
+function status () {
+    let outer = 'yea we outside o'
+    console.log(outer); 
+} 
+status(); //accessible
+console.log(outer); //cant access outer 

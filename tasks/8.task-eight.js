@@ -1,7 +1,10 @@
-for (let multtable1 = 1; multtable1 <= 10; multtable1++) {
-    for (let multtable2 = 1; multtable2 <= 10; multtable2++) {
-      const table = multtable1 * multtable2; 
-      console.log(`${multtable1} * ${multtable2} = ${table}`); //output produces a multiplaction table from 1-10
-    }
+function outer () {
+  const firstFunction = 'am the first';
+
+  function inner () {
+    console.log(firstFunction); //the second function hav access from here to the outer function
   }
-  
+  return inner ();
+ }
+
+outer();   //output is am the first
