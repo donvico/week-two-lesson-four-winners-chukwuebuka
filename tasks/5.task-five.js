@@ -1,8 +1,6 @@
-let firstNum = 1;
-const val = 3;
-
-do {
-  console.log(firstNum);  //outpust is 1,2,3.
-  firstNum++;
-} while (firstNum <= val);
+let add = function(num1, num2) {
+  return num1 + num2;
+};
+const result = add(44, 43);
+console.log(result); // 87 is result
 

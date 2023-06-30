@@ -1,10 +1,7 @@
-const profile = {
-    firstName: 'Okoli',
-    secondName: 'Cynthia',
-    age: 29,
-    city: 'Awka',
-  }
-  
-  for (const key in profile) {
-    console.log(`${key}:${profile[key]}`) // output is firstName:Okoli, secondName:Cynthia, age:29, city:Awka
-  }
+function multiply(num1, num2) {
+  let result = num1 * num2;
+  return result;
+}
+
+const finalResut = multiply(24, 10);
+console.log(finalResut); //output is 240

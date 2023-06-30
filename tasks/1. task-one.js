@@ -1,7 +1,8 @@
 
 // Write something
-const numbers = [1,2,3,4,5,6,7,8]
 
-for (let i = 0; i < numbers.length; i++) {
-  console.log(numbers[i]) // ouput shows 1,2,3,4,5,6,7,8
+function greet () { // function name is greet
+  greet = 'wow your welcome'; //i passed the message 'wow your welcome into greet
+  console.log(greet); // output is wow your welcome
 }
+greet()

@@ -1,8 +1,6 @@
-let anambra = 100 //anambra = 100
-while (anambra <= 105) { //when is less than or equal to 105
-    console.log(anambra); //output is 100,101,102,103,104,105
-    anambra++
-    
+function greet (name = 'guest') {
+    console.log('welcome once again ' + name );
 }
-
+greet(); //this is without an argument passed, welcome once again guest
+greet('i really missed')   //welcome once again i really missed
 
